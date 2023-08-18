@@ -4,7 +4,7 @@ from io import StringIO
 from typing import Callable, NoReturn
 from unittest.mock import patch
 
-from blockprint import BlockPrint
+from blockstdout import BlockPrint
 
 
 def printer():
