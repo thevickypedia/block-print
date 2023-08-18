@@ -12,7 +12,7 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3"
 ]
-keywords = ["python", "block-print"]
+keywords = ["python", "block-stdout"]
 requires-python = ">=3"
 
 [tool.setuptools]

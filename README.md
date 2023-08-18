@@ -1,5 +1,5 @@
 # Block Stdout
-Just blocks standard output
+A context manager that blocks the standard output when wrapped around ``print`` statements.
 
 ## Installation
 ```shell
@@ -34,4 +34,4 @@ if __name__ == '__main__':
 Licensed under the [MIT License][license]
 
 [pypi]: https://pypi.org/project/block-stdout/
-[license]: https://github.com/thevickypedia/block-print/blob/main/LICENSE
+[license]: https://github.com/thevickypedia/block-stdout/blob/main/LICENSE
