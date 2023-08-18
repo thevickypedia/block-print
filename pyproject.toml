@@ -1,5 +1,5 @@
 [project]
-name = "block-print"
+name = "block-stdout"
 dynamic = ["version"]
 description = "Python module that blocks the standard output, preventing print statements from being displayed"
 readme = "README.md"
@@ -16,10 +16,10 @@ keywords = ["python", "block-print"]
 requires-python = ">=3"
 
 [tool.setuptools]
-packages     = ["blockprint"]
+packages     = ["blockstdout"]
 
 [tool.setuptools.dynamic]
-version      = {attr = "blockprint.version"}
+version      = {attr = "blockstdout.version"}
 
 [build-system]
 requires      = ["setuptools", "wheel"]
@@ -29,5 +29,5 @@ build-backend = "setuptools.build_meta"
 dev = ["pytest"]
 
 [project.urls]
-Homepage        = "https://github.com/thevickypedia/block-print"
-Docs            = "https://thevickypedia.github.io/block-print"
+Homepage        = "https://github.com/thevickypedia/block-stdout"
+Docs            = "https://thevickypedia.github.io/block-stdout"
