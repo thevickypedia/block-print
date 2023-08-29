@@ -12,7 +12,7 @@ def printer():
     print('hello')
 
 
-def capture_output(function: Callable) -> NoReturn:
+def capture_output(function: Callable) -> None:
     """Captures the output of a function that uses print.
 
     Args:
@@ -36,7 +36,7 @@ class TestBlockPrint(unittest.TestCase):
 
     """
 
-    def test_print_blocked(self) -> NoReturn:
+    def test_print_blocked(self) -> None:
         """Test that the BlockPrint context manager correctly blocks print statements."""
         with BlockPrint():
             with patch('builtins.print') as mock_print:
